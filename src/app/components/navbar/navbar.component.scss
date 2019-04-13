@@ -1,3 +1,37 @@
 .navbar-main {
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-between;
+    align-content: space-around;
+
+    .main-title {
+        margin-left: 50px;
+    }
+
+    .nav-bar-button-parent {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: space-between;
+        align-content: space-around;
+        
+        .nav-button {
+            margin:  0 20px 0 20px;
+            // align-self: stretch;
+            // order: 0;
+            // flex: 0 0 0px;
+            // flex-grow: 0;
+            // flex-shrink: 0;
+            // flex-basis: 90px;
+        }
+        // align-self: stretch;
+        // order: 0;
+        // flex: 0 0 0px;
+        // flex-grow: 0;
+        // flex-shrink: 0;
+        // flex-basis: 90px;
+    }
 }
