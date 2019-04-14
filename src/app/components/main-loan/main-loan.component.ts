@@ -12,4 +12,13 @@ export class MainLoanComponent implements OnInit {
   ngOnInit() {
   }
 
+  // centered = false;
+  // disabled = false;
+  // unbounded = false;
+
+  // radius: number;
+  // color: string;
+
+  
+
 }

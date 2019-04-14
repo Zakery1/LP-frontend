@@ -5,10 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCheckboxModule} from '@angular/material';
+import {MatCardModule} from '@angular/material/card';
+import {MatRippleModule} from '@angular/material/core';
 
 import { AppComponent } from './app.component';
 import { MainLoanComponent } from './components/main-loan/main-loan.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +24,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
-     MatCheckboxModule
+     MatCheckboxModule,
+     MatCardModule,
+     MatRippleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
