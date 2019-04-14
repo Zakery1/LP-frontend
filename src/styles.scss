@@ -1,5 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+* {
+  font-family: 'Varela Round', sans-serif;
+}
 
 body,html {
   background: blue;
