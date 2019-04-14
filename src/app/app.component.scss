@@ -25,7 +25,7 @@
         margin-bottom: 200px;
         background: rgb(231, 22, 165);
         width: 80vw;
-        height: 2000px;
+        height: 1040px;
         text-align: center; 
         align-self: center;
 
@@ -66,9 +66,15 @@
             }
 
             .hero-box {
+
+                img {
+                    fill: brown;
+                    margin-right: 30px;
+                    height: 450px;
+                }
                 
                 .trial-button {
-                    margin-top: 30px;
+                    margin-top: 50px;
                     font-size: 20px;
                 }
             }
