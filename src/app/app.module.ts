@@ -11,13 +11,15 @@ import {MatRippleModule} from '@angular/material/core';
 import { AppComponent } from './app.component';
 import { MainLoanComponent } from './components/main-loan/main-loan.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MainLoanComponent,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

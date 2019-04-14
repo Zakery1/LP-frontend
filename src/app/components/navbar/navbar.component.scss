@@ -7,8 +7,11 @@
     align-content: space-around;
 
     .main-title {
+        color: #4052B6;
         margin-left: 10vw;
         padding-left: 50px;
+        font-weight: bold;
+        
     }
 
     .nav-bar-button-parent {
@@ -23,18 +26,17 @@
         
         .nav-button {
             margin-right: 15px;
-            // align-self: stretch;
-            // order: 0;
-            // flex: 0 0 0px;
-            // flex-grow: 0;
-            // flex-shrink: 0;
-            // flex-basis: 90px;
+            font-size: 18px;
         }
-        // align-self: stretch;
-        // order: 0;
-        // flex: 0 0 0px;
-        // flex-grow: 0;
-        // flex-shrink: 0;
-        // flex-basis: 90px;
+
+        .sign-up {
+           color: white;
+        }
+    }
+
+    .footer {
+        padding: 0;
+        margin: 0;
+        // bottom: 0;
     }
 }

@@ -1,14 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
 
 * {
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Lato', sans-serif;
+  // color: rgb(0, 0, 0);
 }
 
+
+
 body,html {
-    background: rgb(255, 255, 255);
+    background: rgb(245, 245, 245);
     margin:0;
     padding:0;
   }
